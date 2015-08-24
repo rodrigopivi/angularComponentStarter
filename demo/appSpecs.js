@@ -6,7 +6,6 @@
       browser.get('http://0.0.0.0:5000');
       browser.waitForAngular();
       expect(browser.getTitle()).toBe("Starter Angular Component Demo");
-      browser.pause();
       // http://angular.github.io/protractor/#/tutorial
       // https://github.com/angular/protractor/blob/master/docs/debugging.md
       // to debug use browser.pause(); and from the terminal use 'repl'

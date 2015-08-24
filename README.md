@@ -1,4 +1,4 @@
-## starter-angular-component
+# starter-angular-component
 Starter project for doing component based development using AngularJS.
 The project comes with a pre-configured build process with some nice features:
 
@@ -9,19 +9,20 @@ The project comes with a pre-configured build process with some nice features:
   - Dev server and automatic js compilation
   - Super easy to use and extend
 
-# Install
+## Install
 - First install npm global packages needed
-`npm install -g jshint gulp protractor karma karma-chrome-launcher karma-phantomjs-launcher`
+``npm install -g jshint gulp protractor karma karma-chrome-launcher karma-phantomjs-launcher``
 
 - Update Webdriver (for E2E tests)
-`webdriver-manager update`
+``webdriver-manager update``
 
-- Run npm install.
+- Run `npm install`
+- Run `gulp`
 
-# To run for development use
+## To run for development use
 `gulp dev`
 
-# To run e2e tests
+## To run e2e tests
 Start webdriver standalone
 `webdriver-manager start`
 
