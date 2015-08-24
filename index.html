@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" ng-app="app">
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Starter Angular Component Demo</title>
+  <!-- ========== Vendor stylesheets ========== -->
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+  <!-- ========== Custom stylesheets ========== -->
+  <link rel="stylesheet" href="dist/starter-angular-component.css" />
+</head>
+
+<body role="document" style="margin: 20px;">
+  <h2>starter.angular.component demo</h2>
+  <br />
+  <div ng-include="'demo/demo.html'" ng-controller="testAppController"></div>
+  <br />
+  <!-- ========== Vendor scripts ========== -->
+  <script src="vendor/jquery/dist/jquery.js"></script>
+  <script src="vendor/angular/angular.js"></script>
+
+  <!-- ========== Library scripts ========== -->
+  <script src="dist/starter-angular-component.js"></script>
+  <script src="dist/starter-angular-component.tpl.js"></script>
+
+  <!-- ========== Demo App Scripts ========== -->
+  <script src="demo/app.js"></script>
+  <script src="demo/testAppCtrl.js"></script>
+</body>
+
+</html>

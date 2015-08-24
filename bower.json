@@ -1,0 +1,42 @@
+{
+    "name": "starter-angular-component",
+    "version": "0.0.1",
+    "description": "Starter angular component using gulp and karma.",
+    "license": "internal",
+    "authors": [
+        "Rodrigo Pimentel"
+    ],
+    "private": false,
+    "ignore": [
+        "bin",
+        "lib",
+        "demo",
+        "vendor",
+        "obj",
+        "node_modules",
+        "**/.*",
+        "**/*.csproj",
+        "**/*.user",
+        "**/*.sln",
+        "**/*.html",
+        "**/*.config",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintrc",
+        "gulpfile.js",
+        "index.html",
+        "protractor.conf.js",
+        "karma.conf.js",
+        "package.json",
+        "README.txt"
+    ],
+    "dependencies": {
+        "angular": "~1.4.4"
+    },
+    "devDependencies": {
+        "bootstrap": "~3.3.5",
+        "angular-mocks": "~1.4.4",
+        "angular-scenario": "~1.4.4",
+        "jasmine": "~2.3.4"
+    }
+}

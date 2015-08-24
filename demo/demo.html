@@ -1,0 +1,59 @@
+<!-- ************************ Directives ***************************** -->
+<h3>Directives</h3>
+
+<div class="well well-lg">
+    <h4>show-more-or-less</h4>
+    Truncate long texts and make them collapsable (comes with default values).
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Code</h5>
+            <code>
+                &lt;show-more-or-less
+                data-text="12345 abcde 67890"<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;data-max-length="16"<br />
+                &lt;/show-more-or-less&gt;
+                <br />&lt;br /&gt;<br />
+                &lt;show-more-or-less
+                data-text="12345 abcde 67890"<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;data-max-length="16"<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;data-show-more-text="[more]"<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;data-show-less-text="[less]"<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;data-truncate-symbol=""&gt;<br />
+                &lt;/show-more-or-less&gt;
+            </code>
+        </div>
+        <div class="col-md-6">
+            <h5>Output</h5>
+            <show-more-or-less data-text="12345 abcde 67890"
+                               data-max-length="16">
+            </show-more-or-less>
+            <br />
+            <show-more-or-less data-text="12345 abcde 67890"
+                               data-max-length="16"
+                               data-show-more-text="[more]"
+                               data-show-less-text="[less]"
+                               data-truncate-symbol="">
+            </show-more-or-less>
+        </div>
+    </div>
+</div>
+
+<!-- ************************ FILTERS ***************************** -->
+<h3>Filters</h3>
+
+<div class="well well-lg">
+    <h4>firstWord</h4>
+    Returns the first word using space as the default word separator.
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Code</h5>
+            <code ng-non-bindable>
+                {{ "Lorem.ipsum.ad.his.scripta.blandit.partiendo" | firstWord:'.' }}
+            </code>
+        </div>
+        <div class="col-md-6">
+            <h5>Output</h5>
+                {{ "Lorem.ipsum.ad.his.scripta.blandit.partiendo" | firstWord:'.' }}
+        </div>
+    </div>
+</div>
