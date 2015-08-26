@@ -37,6 +37,7 @@
         "bootstrap": "~3.3.5",
         "angular-mocks": "~1.4.4",
         "angular-scenario": "~1.4.4",
-        "jasmine": "~2.3.4"
+        "jasmine": "~2.3.4",
+        "jasmine-ajax": "~3.2.0"
     }
 }

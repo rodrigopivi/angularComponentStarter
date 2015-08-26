@@ -10,10 +10,7 @@ var TestApp;
 
   TestApp.TestAppController = TestAppController;
   TestApp.Modules.testApp.controller("testAppController", [
-    "$scope",
-    function($scope) {
-      return new TestAppController($scope);
-    }
+    function() { return new TestAppController(); }
   ]);
 
 })(TestApp || (TestApp = {}));

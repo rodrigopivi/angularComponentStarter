@@ -17,6 +17,7 @@ module.exports = function(config) {
 		    'vendor/jquery/dist/jquery.js',
         'vendor/angular/angular.js',
         'vendor/angular-mocks/angular-mocks.js',
+        'vendor/jasmine-ajax/lib/mock-ajax.js',
         'dist/starter-angular-component.js',
         'dist/starter-angular-component.tpl.js',
         'dist/tests/starter-angular-component.js'
