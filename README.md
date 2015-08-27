@@ -33,3 +33,18 @@ On another command line tab, start webdriver standalone
 
 On another command line tab, run protractor
 ``protractor protractor.conf.js``
+
+# About this
+This example project was part of an starter kit I've built for a course about "Testing AngularJS Apps" where we talked about component design and modularizartion as an essential practice for good testing. The slides are available at http://www.slideshare.net/RodrigoPimentel10/probando-aplicaciones-angularjs
+
+# Author
+Rodrigo Pimentel
+
+# License
+Copyright (C) 2015 Rodrigo Pimentel
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
